@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49A379F19C8712C001FAB16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A379E19C8712C001FAB16 /* Cocoa.framework */; };
+		F49A37A919C8712C001FAB16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F49A37A719C8712C001FAB16 /* InfoPlist.strings */; };
+		F49A37AB19C8712C001FAB16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A37AA19C8712C001FAB16 /* main.m */; };
+		F49A37AF19C8712C001FAB16 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F49A37AD19C8712C001FAB16 /* Credits.rtf */; };
+		F49A37B219C8712C001FAB16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A37B119C8712C001FAB16 /* AppDelegate.m */; };
+		F49A37B519C8712C001FAB16 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49A37B319C8712C001FAB16 /* MainMenu.xib */; };
+		F49A37B719C8712C001FAB16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A37B619C8712C001FAB16 /* Images.xcassets */; };
+		F49A37BE19C8712C001FAB16 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A37BD19C8712C001FAB16 /* XCTest.framework */; };
+		F49A37BF19C8712C001FAB16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A379E19C8712C001FAB16 /* Cocoa.framework */; };
+		F49A37C719C8712C001FAB16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F49A37C519C8712C001FAB16 /* InfoPlist.strings */; };
+		F49A37C919C8712C001FAB16 /* SBNotificationReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A37C819C8712C001FAB16 /* SBNotificationReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F49A37C019C8712C001FAB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49A379319C8712C001FAB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49A379A19C8712C001FAB16;
+			remoteInfo = SBNotificationReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F49A379B19C8712C001FAB16 /* SBNotificationReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBNotificationReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A379E19C8712C001FAB16 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F49A37A119C8712C001FAB16 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F49A37A219C8712C001FAB16 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F49A37A319C8712C001FAB16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F49A37A619C8712C001FAB16 /* SBNotificationReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBNotificationReader-Info.plist"; sourceTree = "<group>"; };
+		F49A37A819C8712C001FAB16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F49A37AA19C8712C001FAB16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F49A37AC19C8712C001FAB16 /* SBNotificationReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBNotificationReader-Prefix.pch"; sourceTree = "<group>"; };
+		F49A37AE19C8712C001FAB16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F49A37B019C8712C001FAB16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F49A37B119C8712C001FAB16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F49A37B419C8712C001FAB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F49A37B619C8712C001FAB16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F49A37BC19C8712C001FAB16 /* SBNotificationReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBNotificationReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A37BD19C8712C001FAB16 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F49A37C419C8712C001FAB16 /* SBNotificationReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBNotificationReaderTests-Info.plist"; sourceTree = "<group>"; };
+		F49A37C619C8712C001FAB16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F49A37C819C8712C001FAB16 /* SBNotificationReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBNotificationReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49A379819C8712C001FAB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A379F19C8712C001FAB16 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A37B919C8712C001FAB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A37BF19C8712C001FAB16 /* Cocoa.framework in Frameworks */,
+				F49A37BE19C8712C001FAB16 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49A379219C8712C001FAB16 = {
+			isa = PBXGroup;
+			children = (
+				F49A37A419C8712C001FAB16 /* SBNotificationReader */,
+				F49A37C219C8712C001FAB16 /* SBNotificationReaderTests */,
+				F49A379D19C8712C001FAB16 /* Frameworks */,
+				F49A379C19C8712C001FAB16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49A379C19C8712C001FAB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49A379B19C8712C001FAB16 /* SBNotificationReader.app */,
+				F49A37BC19C8712C001FAB16 /* SBNotificationReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49A379D19C8712C001FAB16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49A379E19C8712C001FAB16 /* Cocoa.framework */,
+				F49A37BD19C8712C001FAB16 /* XCTest.framework */,
+				F49A37A019C8712C001FAB16 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F49A37A019C8712C001FAB16 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49A37A119C8712C001FAB16 /* AppKit.framework */,
+				F49A37A219C8712C001FAB16 /* CoreData.framework */,
+				F49A37A319C8712C001FAB16 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F49A37A419C8712C001FAB16 /* SBNotificationReader */ = {
+			isa = PBXGroup;
+			children = (
+				F49A37B019C8712C001FAB16 /* AppDelegate.h */,
+				F49A37B119C8712C001FAB16 /* AppDelegate.m */,
+				F49A37B319C8712C001FAB16 /* MainMenu.xib */,
+				F49A37B619C8712C001FAB16 /* Images.xcassets */,
+				F49A37A519C8712C001FAB16 /* Supporting Files */,
+			);
+			path = SBNotificationReader;
+			sourceTree = "<group>";
+		};
+		F49A37A519C8712C001FAB16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49A37A619C8712C001FAB16 /* SBNotificationReader-Info.plist */,
+				F49A37A719C8712C001FAB16 /* InfoPlist.strings */,
+				F49A37AA19C8712C001FAB16 /* main.m */,
+				F49A37AC19C8712C001FAB16 /* SBNotificationReader-Prefix.pch */,
+				F49A37AD19C8712C001FAB16 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F49A37C219C8712C001FAB16 /* SBNotificationReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F49A37C819C8712C001FAB16 /* SBNotificationReaderTests.m */,
+				F49A37C319C8712C001FAB16 /* Supporting Files */,
+			);
+			path = SBNotificationReaderTests;
+			sourceTree = "<group>";
+		};
+		F49A37C319C8712C001FAB16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49A37C419C8712C001FAB16 /* SBNotificationReaderTests-Info.plist */,
+				F49A37C519C8712C001FAB16 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49A379A19C8712C001FAB16 /* SBNotificationReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49A37CC19C8712C001FAB16 /* Build configuration list for PBXNativeTarget "SBNotificationReader" */;
+			buildPhases = (
+				F49A379719C8712C001FAB16 /* Sources */,
+				F49A379819C8712C001FAB16 /* Frameworks */,
+				F49A379919C8712C001FAB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBNotificationReader;
+			productName = SBNotificationReader;
+			productReference = F49A379B19C8712C001FAB16 /* SBNotificationReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F49A37BB19C8712C001FAB16 /* SBNotificationReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49A37CF19C8712C001FAB16 /* Build configuration list for PBXNativeTarget "SBNotificationReaderTests" */;
+			buildPhases = (
+				F49A37B819C8712C001FAB16 /* Sources */,
+				F49A37B919C8712C001FAB16 /* Frameworks */,
+				F49A37BA19C8712C001FAB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49A37C119C8712C001FAB16 /* PBXTargetDependency */,
+			);
+			name = SBNotificationReaderTests;
+			productName = SBNotificationReaderTests;
+			productReference = F49A37BC19C8712C001FAB16 /* SBNotificationReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49A379319C8712C001FAB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stéphane Bruckert";
+				TargetAttributes = {
+					F49A37BB19C8712C001FAB16 = {
+						TestTargetID = F49A379A19C8712C001FAB16;
+					};
+				};
+			};
+			buildConfigurationList = F49A379619C8712C001FAB16 /* Build configuration list for PBXProject "SBNotificationReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49A379219C8712C001FAB16;
+			productRefGroup = F49A379C19C8712C001FAB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49A379A19C8712C001FAB16 /* SBNotificationReader */,
+				F49A37BB19C8712C001FAB16 /* SBNotificationReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49A379919C8712C001FAB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A37A919C8712C001FAB16 /* InfoPlist.strings in Resources */,
+				F49A37B719C8712C001FAB16 /* Images.xcassets in Resources */,
+				F49A37AF19C8712C001FAB16 /* Credits.rtf in Resources */,
+				F49A37B519C8712C001FAB16 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A37BA19C8712C001FAB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A37C719C8712C001FAB16 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49A379719C8712C001FAB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A37B219C8712C001FAB16 /* AppDelegate.m in Sources */,
+				F49A37AB19C8712C001FAB16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A37B819C8712C001FAB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A37C919C8712C001FAB16 /* SBNotificationReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F49A37C119C8712C001FAB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49A379A19C8712C001FAB16 /* SBNotificationReader */;
+			targetProxy = F49A37C019C8712C001FAB16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F49A37A719C8712C001FAB16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A37A819C8712C001FAB16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F49A37AD19C8712C001FAB16 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A37AE19C8712C001FAB16 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F49A37B319C8712C001FAB16 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A37B419C8712C001FAB16 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F49A37C519C8712C001FAB16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A37C619C8712C001FAB16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49A37CA19C8712C001FAB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F49A37CB19C8712C001FAB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F49A37CD19C8712C001FAB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBNotificationReader/SBNotificationReader-Prefix.pch";
+				INFOPLIST_FILE = "SBNotificationReader/SBNotificationReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F49A37CE19C8712C001FAB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBNotificationReader/SBNotificationReader-Prefix.pch";
+				INFOPLIST_FILE = "SBNotificationReader/SBNotificationReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F49A37D019C8712C001FAB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SBNotificationReader.app/Contents/MacOS/SBNotificationReader";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBNotificationReader/SBNotificationReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SBNotificationReaderTests/SBNotificationReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F49A37D119C8712C001FAB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SBNotificationReader.app/Contents/MacOS/SBNotificationReader";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBNotificationReader/SBNotificationReader-Prefix.pch";
+				INFOPLIST_FILE = "SBNotificationReaderTests/SBNotificationReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49A379619C8712C001FAB16 /* Build configuration list for PBXProject "SBNotificationReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A37CA19C8712C001FAB16 /* Debug */,
+				F49A37CB19C8712C001FAB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49A37CC19C8712C001FAB16 /* Build configuration list for PBXNativeTarget "SBNotificationReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A37CD19C8712C001FAB16 /* Debug */,
+				F49A37CE19C8712C001FAB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F49A37CF19C8712C001FAB16 /* Build configuration list for PBXNativeTarget "SBNotificationReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A37D019C8712C001FAB16 /* Debug */,
+				F49A37D119C8712C001FAB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49A379319C8712C001FAB16 /* Project object */;
+}
