@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E33168F2-C636-47BB-9CFA-2734A65371EA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SBNotificationReader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9F050FF7-4FBC-4B36-A507-935FF7AABEBB</key>
+		<string>https://github.com/stephanebruckert/SBNotificationReader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SBNotificationReader.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9F050FF7-4FBC-4B36-A507-935FF7AABEBB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/stephanebruckert/SBNotificationReader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9F050FF7-4FBC-4B36-A507-935FF7AABEBB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9F050FF7-4FBC-4B36-A507-935FF7AABEBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SBNotificationReader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
